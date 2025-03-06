@@ -95,7 +95,7 @@ def gallery():
     row = 0
     col = 0
     image_refs = []  # List to keep references to images to prevent garbage collection
-    img_dir = r"C:\Users\jayam\OneDrive\Desktop\SoarCS Final\Images"
+    img_dir = r"C:\Users\Om\OneDrive\Desktop\SoarCS Final\Images"
 
     for img_file in os.listdir(img_dir):
         if img_file.endswith(".jpg") or img_file.endswith(".png"): 
